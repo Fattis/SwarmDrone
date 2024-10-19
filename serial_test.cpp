@@ -3,9 +3,9 @@
   http://www.electronicwings.com
  */
 
-#include <WiringPI/wiringPi/wiringPi.h> /* include wiringPi library */
+#include <WiringPi/wiringPi/wiringPi.h> /* include wiringPi library */
 #include <stdio.h>    
-#include <WiringPI/wiringPi/softPwm.h>  /* include header file for software PWM */
+#include <WiringPi/wiringPi/softPwm.h>  /* include header file for software PWM */
 
 int main(){
 	int PWM_pin = 1;		/* GPIO1 as per WiringPi,GPIO18 as per BCM */
