@@ -8,7 +8,7 @@
 #include <softPwm.h>  /* include header file for software PWM */
 
 int main(){
-	int PWM_pin = 1;		/* GPIO1 as per WiringPi,GPIO18 as per BCM */
+	int PWM_pin = 7;		/* GPIO1 as per WiringPi,GPIO18 as per BCM */
 	int intensity;
 	wiringPiSetup();		/* initialize wiringPi setup */
 	pinMode(PWM_pin,OUTPUT);	/* set GPIO as output */
